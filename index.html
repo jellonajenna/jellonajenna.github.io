@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<!--- bootstrac cdn--->
+
+<!--- add font by: font-family: 'Titillium Web', sans-serif;--->
+
+<!--- Stuff to do:
+
+remove blue border after clicking the button
+image size
+border around the image--->
+
+<html>
+<head>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    
+    <!---FONT--->
+ <link href="https://fonts.googleapis.com/css?family=Nunito:200" rel="stylesheet">
+    
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+<title> Page Title</title>
+</head>
+<body> 
+</body>
+    
+    <!--- header here--->
+    
+    
+    
+    <div class="row">
+        
+          <div class="col-xs-4 imageParent" >
+     <img class="headerImage" src="/Users/jennapakonen/Desktop/Website/images/banner.jpeg"
+         alt="header image"
+         />
+    
+    </div>  
+         
+    
+  <div class="col-sm-4">
+      
+      <h1 class="heading">Welcome!</h1>
+      <p class="paragraph">
+          <br>
+          <br>
+          <br>
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan mi nec tempus iaculis. Suspendisse ligula neque, consectetur vel nulla vel, fringilla aliquam sem. Duis tempor, dui ornare fringilla vestibulum, odio dui porta enim, et pellentesque nunc ipsum sed sem. Nam ipsum sapien, hendrerit a viverra vitae, suscipit quis justo. Etiam pharetra, arcu nec congue consequat, ante lacus ullamcorper risus, quis suscipit urna velit vel nunc. Donec fringilla massa id eros imperdiet, non ullamcorper urna pellentesque. Aenean non scelerisque nisl, ac condimentum elit. Aliquam erat volutpat. Quisque ultrices pretium diam, sit amet sagittis neque egestas ac. Ut at imperdiet urna, elementum aliquam mi. Phasellus semper lectus vel turpis porta hendrerit. Nullam nec velit maximus, egestas nulla ac, sagittis nisl.
+      
+          <!--- profile pic
+       <a target="_blank" href="/Users/jennapakonen/Desktop/Website/images/landscape.jpeg">
+          <img class="image center-cropped" src="/Users/jennapakonen/Desktop/Website/images/landscape.jpeg" alt="test" />    </a> --->
+      
+      </p>
+      
+    </div>
+        
+        
+  <div class="col-sm-4 buttonParent ">
+      <button type="button" class="button col-xs-8"><a href="gallery.html" class="link">Gallery</a></button>
+    <button type="button" class="button col-xs-8"><a href="about.html" class="link">About</a></button>
+    
+    
+    <button type="button" class="button col-xs-8">Button 3</button>
+
+    
+ <button type="button" class="button col-xs-8">Button 4</button></div>
+      
+    
+        </div>
+
+    
+    <a name="gallery"></a> 
+ <a name="about"></a> 
+    <a name="index"></a> 
+    
+
+    
+</html>
+
+
+
+<style>
+    .button{
+        background-color:transparent;
+        color: #946b98;
+        border: 1px solid #946b98;
+        display: inline-block;
+        padding: 5px 10px;
+        font-size: 15px;
+        font-weight: normal;
+        line-height: 1.42857143;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        border-radius: 0px;
+    margin-bottom: 20px;
+        font-family: 'Nunito', sans-serif;
+        
+ 
+
+            
+        
+        
+    }
+    .button:focus{outline:0;}
+    
+    .buttonParent{
+padding-top: 300px;
+        
+       
+        
+    }
+    
+    .link{
+        color:#946b98;
+        
+    }
+    
+    a:hover {
+   text-decoration:none;
+        color:black
+            
+}
+    
+    .imageParent{
+        overflow:hidden;
+        height:100%;
+        
+       
+    }
+
+    .btn{
+        background-color: #946b98;
+    }
+    .headerImage{
+        height: 100%;
+   
+        
+    
+        
+    }
+    
+    .heading{
+        
+    font-family:'Nunito', sans-serif;
+        text-align:center;
+    
+    }
+
+    .paragraph{
+        font-family: 'Nunito',sans-serif;
+        text-align:center;
+        color:#946b98;
+    }
+    
+    /*For the profile pic*/
+    
+    .image{
+        width: 200px;
+        height: 200px;
+            display: block;
+    margin: auto;
+        
+            
+       
+        }
+         
+        
+        .center-cropped {
+  object-fit: cover; /* Do not scale the image */
+  object-position: center; /* Center the image within the element */
+  height: 200px;
+  width: 200px;
+
+   
+</style>
