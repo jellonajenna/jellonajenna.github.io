@@ -31,10 +31,10 @@ border around the image--->
     
     
     
-    <div class="row">
+    <div class="row maxheight">
         
-          <div class="col-xs-4 imageParent" >
-     <img class="headerImage" src="images/banner.jpeg"
+          <div class="col-sm-4 col-xs-2 imageParent " >
+     <img src="images/banner.jpeg"
          alt="header image"
          />
     
@@ -84,6 +84,18 @@ border around the image--->
 
 
 <style>
+    html{
+        height: 100%;
+    }
+    
+    body{
+        height: 100%;
+    }
+    
+    .maxheight{
+        height: 100%;
+    }
+    
     .button{
         background-color:transparent;
         color: #946b98;
@@ -129,10 +141,13 @@ padding-top: 300px;
     .imageParent{
         overflow:hidden;
         height:100%;
-        
-       
     }
-
+    
+    .imageParent img{
+        width: 360px;
+        height:100%;
+    }
+    
     .btn{
         background-color: #946b98;
     }
